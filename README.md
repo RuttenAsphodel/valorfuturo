@@ -61,10 +61,10 @@ python depreciation_simulator.py
 ```
 
 Parámetros que puedes ajustar dentro del script: - Valor inicial del
-activo\
-- Vida útil\
-- Método de depreciación\
-- Valor residual\
+activo
+- Vida útil
+- Método de depreciación
+- Valor residual
 - Periodicidad de cálculo
 
 ------------------------------------------------------------------------
@@ -78,5 +78,5 @@ Proyecto desarrollado por
 **Cristian Valenzuela** 
 **Nicolas Miranda** 
 **Diego Cordova**
-**Cristobal Rojas**.\
+**Cristobal Rojas**
 
