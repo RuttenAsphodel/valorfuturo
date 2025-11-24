@@ -1,97 +1,88 @@
-Simulador de Depreciación de Activos
+# Simulador de Depreciación de Activos
 
-Repositorio: RuttenAsphodel/valorfuturo
+Este proyecto permite calcular la depreciación de activos a lo largo del
+tiempo mediante distintos métodos.\
+Repositorio original: **https://github.com/RuttenAsphodel/valorfuturo**
 
-Descripción: Este proyecto permite calcular la depreciación de activos a lo largo del tiempo mediante distintos métodos (según se defina) — ideal para análisis contable o financiero.
+------------------------------------------------------------------------
 
-Contenido del repositorio
+## 📁 Contenido del repositorio
 
-depreciation_simulator.py — Script principal que contiene la lógica del simulador.
+-   `depreciation_simulator.py` --- Script principal con la lógica del
+    simulador.
+-   `requirements.txt` --- Lista de dependencias necesarias.
+-   `Implementacion Simulador Depreciacion.docx` --- Documento de
+    implementación.
+-   `README.md` --- Archivo README.
 
-requirements.txt — Dependencias necesarias para ejecutar el proyecto.
+------------------------------------------------------------------------
 
-Implementacion Simulador Depreciacion.docx — Documento de implementación/planificación (puedes verlo para detalles de diseño).
+## 🛠 Tecnologías utilizadas
 
-README.md — Este archivo.
+-   **Python**
+-   Bibliotecas incluidas en `requirements.txt`
 
-Tecnologías usadas
+------------------------------------------------------------------------
 
-Python (100% del código). 
-GitHub
+## 🚀 Instalación
 
-Bibliotecas listadas en requirements.txt (por ejemplo: pandas, numpy — asegúrate de revisar ese archivo).
+1.  Clona el repositorio:
 
-Instalación / Preparación del entorno
-
-Clona este repositorio:
-
+``` bash
 git clone https://github.com/RuttenAsphodel/valorfuturo.git
 cd valorfuturo
+```
 
+2.  Crea un entorno virtual (opcional):
 
-(Opcional) Crea un entorno virtual para aislar dependencias:
-
+``` bash
 python3 -m venv venv
-source venv/bin/activate   # en Linux/Mac
-venv\Scripts\activate      # en Windows
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate    # Windows
+```
 
+3.  Instala dependencias:
 
-Instala las dependencias:
-
+``` bash
 pip install -r requirements.txt
+```
 
+------------------------------------------------------------------------
 
-Verifica que la instalación fue correcta ejecutando el script principal.
+## ▶️ Uso
 
-Uso
+Ejecuta el simulador:
 
-Ejecuta el simulador con:
-
+``` bash
 python depreciation_simulator.py
+```
 
+Parámetros que puedes ajustar dentro del script: - Valor inicial del
+activo\
+- Vida útil\
+- Método de depreciación\
+- Valor residual\
+- Periodicidad de cálculo
 
-Dentro del script puedes modificar entradas como: valor inicial del activo, vida útil, método de depreciación, etc. Asegúrate de revisar los comentarios del código para entender cómo ajustar los parámetros.
+------------------------------------------------------------------------
 
-Configuración (parámetros principales)
+## 🤝 Contribuciones
 
-Aquí algunos parámetros clave que puedes modificar en depreciation_simulator.py:
+1.  Haz un **fork** del repositorio.\
+2.  Crea una rama para tu mejora.\
+3.  Realiza tus cambios y haz commit.\
+4.  Abre un Pull Request.
 
-Valor inicial del activo.
+------------------------------------------------------------------------
 
-Fecha de adquisición.
+## 📄 Licencia
 
-Vida útil (años).
+Actualmente el proyecto no tiene una licencia definida.\
+Se recomienda agregar una para uso público.
 
-Método de depreciación (lineal, decreciente, etc).
+------------------------------------------------------------------------
 
-Valor residual (si aplica).
+## 👤 Autor
 
-Periodicidad de cálculo (anual, mensual, etc).
-
-(Revisa el código para ver cómo se implementan esos métodos concretos).
-
-Ejemplos de salida
-
-No se han incluido capturas de pantalla en este README. Puedes agregar ejemplos de salida aquí para facilitar el uso por otros usuarios.
-
-Contribuciones
-
-Si deseas contribuir:
-
-Haz un fork del repositorio.
-
-Crea una nueva branch para tu feature/fix.
-
-Haz commit de tus cambios con mensajes claros.
-
-Envía un pull request describiendo qué mejoras añadiste.
-
-Licencia
-
-(Si no tienes aún una licencia, considera agregar una — por ejemplo MIT, Apache 2.0, etc.)
-Por defecto, este proyecto no especifica una licencia. Asegúrate de definirla si lo vas a hacer público.
-
-Contacto / Autor
-
-Proyecto creado por Rutten Asphodel.
-Para dudas, puedes abrir un Issue en el repositorio o contactarme vía GitHub.
+Proyecto desarrollado por **Rutten Asphodel**.\
+Para dudas o mejoras puedes abrir un *Issue* en GitHub.
