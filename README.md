@@ -60,8 +60,8 @@ Ejecuta el simulador:
 python depreciation_simulator.py
 ```
 
-Parámetros que puedes ajustar dentro del script: - Valor inicial del
-activo
+Parámetros que puedes ajustar dentro del script: 
+- Valor inicial del activo
 - Vida útil
 - Método de depreciación
 - Valor residual
@@ -74,9 +74,9 @@ activo
 
 ## 👤 Autores
 
-Proyecto desarrollado por 
-**Cristian Valenzuela** 
-**Nicolas Miranda** 
-**Diego Cordova**
-**Cristobal Rojas**
+Proyecto desarrollado por: 
+- **Cristian Valenzuela** 
+- **Nicolas Miranda** 
+- **Diego Cordova**
+- **Cristobal Rojas**
 
