@@ -1,3 +1,4 @@
+# ValorFuturo
 # Simulador de Depreciación de Activos
 
 Este proyecto permite calcular la depreciación de activos a lo largo del
@@ -21,7 +22,9 @@ Repositorio original: **https://github.com/RuttenAsphodel/valorfuturo**
 
 -   **Python**
 -   Bibliotecas incluidas en `requirements.txt`
-
+    - TKInter (Para interfaz)
+    - Matplotlib (para mostrar los graficos de depreciacion)
+    - Math (para aplicar las funciones exponenciales y logaritmicas necesarias)
 ------------------------------------------------------------------------
 
 ## 🚀 Instalación
@@ -66,23 +69,14 @@ activo\
 
 ------------------------------------------------------------------------
 
-## 🤝 Contribuciones
-
-1.  Haz un **fork** del repositorio.\
-2.  Crea una rama para tu mejora.\
-3.  Realiza tus cambios y haz commit.\
-4.  Abre un Pull Request.
 
 ------------------------------------------------------------------------
 
-## 📄 Licencia
+## 👤 Autores
 
-Actualmente el proyecto no tiene una licencia definida.\
-Se recomienda agregar una para uso público.
+Proyecto desarrollado por 
+**Cristian Valenzuela** 
+**Nicolas Miranda** 
+**Diego Cordova**
+**Cristobal Rojas**.\
 
-------------------------------------------------------------------------
-
-## 👤 Autor
-
-Proyecto desarrollado por **Rutten Asphodel**.\
-Para dudas o mejoras puedes abrir un *Issue* en GitHub.
