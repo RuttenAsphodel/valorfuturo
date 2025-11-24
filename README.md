@@ -77,6 +77,6 @@ Parámetros que puedes ajustar dentro del script:
 Proyecto desarrollado por: 
 - **Cristian Valenzuela** 
 - **Nicolas Miranda** 
-- **Diego Cordova**
+- **Diego Espinoza**
 - **Cristobal Rojas**
 
