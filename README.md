@@ -9,7 +9,7 @@ Repositorio original: **https://github.com/RuttenAsphodel/valorfuturo**
 
 ## 📁 Contenido del repositorio
 
--   `depreciation_simulator.py` --- Script principal con la lógica del
+-   `valorfuturo.py` --- Script principal con la lógica del
     simulador.
 -   `requirements.txt` --- Lista de dependencias necesarias.
 -   `Implementacion Simulador Depreciacion.docx` --- Documento de
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 Ejecuta el simulador:
 
 ``` bash
-python depreciation_simulator.py
+python valorfuturo.py
 ```
 
 Parámetros que puedes ajustar dentro del script: 
